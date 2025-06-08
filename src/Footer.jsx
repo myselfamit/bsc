@@ -19,7 +19,7 @@ const Footer = () => {
             >
               Bombay Social Club
             </h2>
-            <p className="text-gray-400">Authentic Indian Cuisine</p>
+            <p className="text-gray-400">Authentic Mumbai Cuisine</p>
             <p className="text-sm text-gray-500 mt-2">Tuesday-Sunday: 5PM-2AM | Monday: Closed</p>
           </div>
           

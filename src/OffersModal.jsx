@@ -10,24 +10,24 @@ const OffersModal = ({ isOpen, onClose }) => {
     {
       title: "Happy Hour Special",
       description: "50% off on all cocktails and mocktails",
-      time: "Tuesday to Friday, 5PM - 7PM",
+      time: "Tuesday to Friday, 5PM - 8PM",
       color: "from-purple-600 to-pink-600"
     },
     {
-      title: "Weekend Feast",
-      description: "Buy 2 sizzlers, get 1 appetizer free",
+      title: "Weekend Special",
+      description: "Buy 2 sizzlers, get 1 dessert free",
       time: "Saturday & Sunday, All Day",
       color: "from-green-600 to-blue-600"
     },
     {
-      title: "Ladies Night",
-      description: "Free welcome drink for all ladies",
-      time: "Every Wednesday, 7PM onwards",
+      title: "Specials",
+      description: "Get 10% off on take out & We match uber eats offers too",
+      time: "All days",
       color: "from-red-600 to-orange-600"
     },
     {
       title: "Group Discount",
-      description: "15% off on tables of 6 or more",
+      description: "10% off on tables of 6 or more",
       time: "All days, advance booking required",
       color: "from-indigo-600 to-purple-600"
     }

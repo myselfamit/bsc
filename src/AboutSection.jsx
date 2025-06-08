@@ -18,17 +18,17 @@ const AboutSection = () => {
               className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Authentic Flavors of India
+              Authentic Flavors of Mumbai
             </motion.h2>
             <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-              Bombay Social Club brings the vibrant tastes, aromas, and culture of India to London, Ontario. 
+              Bombay Social Club brings the vibrant tastes, aromas, and culture of Mumbai London, Ontario. 
               Our chefs craft each dish with authentic spices and traditional techniques to deliver 
               an unforgettable culinary journey.
             </p>
             <p className="text-gray-300 mb-8 text-lg leading-relaxed">
               Whether you're joining us for a casual dinner, celebrating a special occasion, or 
               ordering takeout, we promise a dining experience that celebrates the rich diversity 
-              of Indian cuisine.
+              of Mumbai cuisine.
             </p>
           </motion.div>
           

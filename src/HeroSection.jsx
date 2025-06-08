@@ -19,8 +19,8 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0.3]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
-  // Enhanced scroll-based image opacity changes
-  const getImageOpacity = () => {
+  // Enhanced scroll-based video opacity changes
+  const getVideoOpacity = () => {
     const scrollPercent = Math.min(scrollY / (window.innerHeight * 2), 1);
     return Math.max(0.3, 1 - scrollPercent * 0.7);
   };
@@ -37,16 +37,19 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           scale: scale
         }}
       >
-        <motion.img
-          src="/bsclub.gif"
-          alt="Bombay Social Club Background"
+        <motion.video
+          src="/bsc.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover"
           style={{ 
             filter: "brightness(0.3) contrast(1.2)",
             opacity: opacity
           }}
           initial={{ opacity: 0 }}
-          animate={{ opacity: isInView ? getImageOpacity() : 0 }}
+          animate={{ opacity: isInView ? getVideoOpacity() : 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         />
         {/* Fallback background image */}
@@ -84,7 +87,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           variants={fadeIn}
           className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed"
         >
-          Experience authentic Indian cuisine in the heart of London, Ontario
+          Experience authentic Mumbai cuisine in the heart of London, Ontario
         </motion.p>
         <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-6">
           <ActionButton 
@@ -115,5 +118,3 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
 };
 
 export default HeroSection;
-
-

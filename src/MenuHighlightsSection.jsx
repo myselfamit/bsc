@@ -17,7 +17,7 @@ const MenuHighlightsSection = ({ handleActionButtonClick }) => {
             Menu Highlights
           </h2>
           <p className="text-gray-300 max-w-3xl mx-auto text-lg">
-            Our menu features a curated selection of traditional Indian favorites and innovative fusion dishes
+            Our menu features a curated selection of traditional Mumbai favorites and innovative fusion dishes
           </p>
         </div>
       </ScrollReveal>
@@ -45,8 +45,8 @@ const MenuHighlightsSection = ({ handleActionButtonClick }) => {
               category="Main Course"
             />
             <MenuItem 
-              title="Lamb Biryani" 
-              description="Fragrant basmati rice cooked with tender lamb and traditional spices" 
+              title=" Chicken Tikka Biryani" 
+              description="Fragrant basmati rice cooked with tender chicken and traditional spices" 
               price="$21.99"
               category="Rice Dish"
             />
@@ -88,7 +88,7 @@ const MenuHighlightsSection = ({ handleActionButtonClick }) => {
             />
             <MenuItem 
               title="Mumbai Mule" 
-              description="Indian twist on classic mule with vodka, mango, and ginger beer" 
+              description="Mumbai twist on classic mule with vodka, mango, and ginger beer" 
               price="$9.49"
               category="Cocktail"
             />
@@ -100,7 +100,7 @@ const MenuHighlightsSection = ({ handleActionButtonClick }) => {
             />
             <MenuItem 
               title="Old Monk Rum" 
-              description="Premium Indian dark rum, perfect for connoisseurs" 
+              description="Premium Mumbai dark rum, perfect for connoisseurs" 
               price="$6.99/OZ"
               category="Premium Spirit"
             />

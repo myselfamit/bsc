@@ -101,7 +101,7 @@ const Navigation = ({
                       <Phone size={16} className="text-red-500" />
                       <span>Call Us</span>
                     </a>
-                    <a href="mailto:customerservice@bombaysocialclub.com" className="flex items-center space-x-3 hover:text-red-400 transition-colors">
+                    <a href="mailto:admin@socialclub.club" className="flex items-center space-x-3 hover:text-red-400 transition-colors">
                       <Mail size={16} className="text-red-500" />
                       <span>Email Us</span>
                     </a>
