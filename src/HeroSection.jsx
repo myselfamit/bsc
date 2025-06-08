@@ -52,16 +52,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           animate={{ opacity: isInView ? getVideoOpacity() : 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         />
-        {/* Fallback background image */}
-        <div 
-          className="absolute inset-0 w-full h-full bg-cover bg-center"
-          style={{ 
-            backgroundImage: "url('/main_display.jpeg')",
-            backgroundPosition: "center", 
-            backgroundSize: "cover",
-            zIndex: -1
-          }}
-        />
+
       </motion.div>
       
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60 z-1"></div>
@@ -87,7 +78,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           variants={fadeIn}
           className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed"
         >
-          Experience authentic Mumbai cuisine in the heart of London, Ontario
+          Experience authentic Indian cuisine in the heart of London, Ontario
         </motion.p>
         <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-6">
           <ActionButton 
