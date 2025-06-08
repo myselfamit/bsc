@@ -8,7 +8,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          // Keep video files in root of dist
           if (assetInfo.name && assetInfo.name.endsWith('.mp4')) {
             return '[name][extname]'
           }
