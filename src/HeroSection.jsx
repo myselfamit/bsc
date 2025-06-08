@@ -38,7 +38,6 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
         }}
       >
         <motion.video
-          src="/bsc.mp4"
           autoPlay
           loop
           muted
@@ -51,7 +50,11 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: isInView ? getVideoOpacity() : 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-        />
+        >
+          <source src="/bsc.mp4" type="video/mp4" />
+          <source src="/bsc.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </motion.video>
 
       </motion.div>
       
