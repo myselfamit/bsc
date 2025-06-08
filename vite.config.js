@@ -1,19 +1,19 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { copyFileSync, existsSync } from 'fs'
 
 export default defineConfig({
-  plugins: [react()],
-  publicDir: 'public',
-  build: {
-    rollupOptions: {
-      output: {
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name && assetInfo.name.endsWith('.mp4')) {
-            return '[name][extname]'
-          }
-          return 'assets/[name]-[hash][extname]'
+  plugins: [
+    react(),
+    {
+      name: 'copy-video',
+      writeBundle() {
+        if (existsSync('public/bsc.mp4')) {
+          copyFileSync('public/bsc.mp4', 'dist/bsc.mp4')
+          console.log('✓ Video copied to dist folder')
         }
       }
     }
-  }
+  ],
+  publicDir: 'public'
 })
