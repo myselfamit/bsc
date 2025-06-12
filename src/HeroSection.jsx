@@ -52,8 +52,8 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           {/* <source src="https://bombay-social-club-assets.s3.ca-central-1.amazonaws.com/bsc.mp4" type="video/mp4" /> */}
-          {/* <source src="https://your-amplify-storage-domain/bsc.mp4" type="video/mp4" /> */}
-          <source src="/bsc.mp4" type="video/mp4" />
+          <source src="https://main.d2col3bm62qdlz.amplifyapp.com/bsc.mp4" type="video/mp4" />
+          {/* <source src="/bsc.mp4" type="video/mp4" /> */}
           {/* <source src="/bsc.webm" type="video/webm" /> */}
           Your browser does not support the video tag.
         </motion.video>
