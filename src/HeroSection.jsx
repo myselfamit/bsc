@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { Calendar, Utensils, Gift } from 'lucide-react';
 import ActionButton from './ActionButton';
 import { fadeIn, staggerContainer } from './animations';
+import videoSrc from '/bsc.mp4';
 
 const HeroSection = ({ scrollY, handleActionButtonClick }) => {
   const { scrollYProgress } = useScroll();
@@ -53,6 +54,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
         >
           {/* <source src="https://bombay-social-club-assets.s3.ca-central-1.amazonaws.com/bsc.mp4" type="video/mp4" /> */}
           <source src="https://main.d2col3bm62qdlz.amplifyapp.com/bsc.mp4" type="video/mp4" />
+          <video src={videoSrc}/>
           {/* <source src="/bsc.mp4" type="video/mp4" /> */}
           {/* <source src="/bsc.webm" type="video/webm" /> */}
           Your browser does not support the video tag.
