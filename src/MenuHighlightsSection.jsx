@@ -45,15 +45,15 @@ const MenuHighlightsSection = ({ handleActionButtonClick }) => {
               category="Main Course"
             />
             <MenuItem 
-              title=" Chicken Tikka Biryani" 
+              title="Chicken Tikka Biryani" 
               description="Fragrant basmati rice cooked with tender chicken and traditional spices" 
-              price="$21.99"
+              price="$17.99"
               category="Rice Dish"
             />
             <MenuItem 
               title="Paneer Tikka Masala" 
               description="Grilled cottage cheese in a flavorful tomato and onion gravy" 
-              price="$16.99"
+              price="$17.99"
               category="Vegetarian"
             />
             <MenuItem 
