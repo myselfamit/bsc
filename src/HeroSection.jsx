@@ -53,7 +53,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           {/* <source src="https://bombay-social-club-assets.s3.ca-central-1.amazonaws.com/bsc.mp4" type="video/mp4" /> */}
-          <source src="public/bsc.mp4" type="video/mp4" />
+          <source src="/bsc.mp4" type="video/mp4" />
           {/* <source src="/bsc.mp4" type="video/mp4" /> */}
           {/* <source src="/bsc.webm" type="video/webm" /> */}
           Your browser does not support the video tag.
