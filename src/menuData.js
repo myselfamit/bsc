@@ -39,6 +39,54 @@ export const foodMenu = {
     { name: "Theccha Dip", price: "$1.49" },
     { name: "Extra Farsan", price: "$1.49" },
     { name: "Schezwan Dip", price: "$0.99" }
+  ],
+  "Street food": [
+    { name: "Thanedaar Misal Pav", price: "$13.99" },
+    { name: "CST Pav Bhaji", price: "$14.99" },
+    { name: "Vada Pav", price: "$9.99" },
+    { name: "Vada Usal", price: "$14.99" },
+    { name: "Masala Pav", price: "$11.99" },
+    { name: "Samosa Pav", price: "$8.99" },
+    { name: "Omellette Pav", price: "$12.99" },
+    { name: "Bhurji Pav", price: "$13.99" },
+    { name: "Chicken Frankie", price: "$11.99" },
+    { name: "Paneer Frankie", price: "$12.99" }
+  ],
+  "Main Course": [
+    { name: "Bsc Butter Chicken", price: "$18.99" },
+    { name: "Bsc Paneer Makhani", price: "$17.99" },
+    { name: "Bombay style Shrimp Curry", price: "$18.99" },
+    { name: "Veg Tawa Masala", price: "$15.99" },
+    { name: "Anda Tawa Masala", price: "$16.99" },
+    { name: "Murg Tawa Masala", price: "$17.99" },
+    { name: "Tawa Ghotala", price: "$17.99" },
+    { name: "Chicken Tikka Masala", price: "$18.99" },
+    { name: "Paneer Tikka Masala", price: "$17.99" },
+    { name: "Cheesy Popper Masala", price: "$17.99" },
+    { name: "Kolhapuri Chicken Curry", price: "$17.99" },
+    { name: "Aloo Gobi", price: "$16.99" },
+    { name: "Mumbai Dal Fry", price: "$13.99" }
+  ],
+  "Bread": [
+    { name: "Plain Naan", price: "$3.49" },
+    { name: "Butter Naan", price: "$3.99" },
+    { name: "Garlic Naan", price: "$4.99" },
+    { name: "Extra Pav", price: "$2.49" },
+    { name: "Extra Buttered Pav", price: "$3.49" }
+  ],
+  "Rice": [
+    { name: "Steamed Rice", price: "$5.29" },
+    { name: "Jeera Rice", price: "$6.99" },
+    { name: "Veg Biryani", price: "$16.99" },
+    { name: "Chicken Biryani", price: "$17.99" },
+    { name: "Shrimp Pulao", price: "$18.99" }
+  ],
+  "DESSERTS": [
+    { name: "Thandai Mousse Mischief", price: "$8.99" },
+    { name: "Death By Chocolate", price: "$8.99" },
+    { name: "Sizzling Sweetness", price: "$9.99" },
+    { name: "Vanilla Jamun Delight", price: "$7.99" },
+    { name: "BSC Special Paan Ice Cream", price: "$6.99" }
   ]
 };
 
