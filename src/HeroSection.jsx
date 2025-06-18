@@ -39,15 +39,13 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
         }}
       >
         <motion.video
+          src={videoSrc}
           autoPlay
           loop
           muted
           playsInline
           className="w-full h-full object-cover"
-          style={{
-            filter: "brightness(0.3) contrast(1.2)",
-            opacity: opacity
-          }}
+          style={{ filter: "brightness(0.3) contrast(1.2)", opacity }}
           initial={{ opacity: 0 }}
           animate={{ opacity: isInView ? getVideoOpacity() : 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
