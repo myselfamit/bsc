@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { Calendar, Utensils, Gift } from 'lucide-react';
 import ActionButton from './ActionButton';
 import { fadeIn, staggerContainer } from './animations';
-import videoSrc from '/bsc.mp4';
+import videoSrc from '/newbsc.mp4';
 
 const HeroSection = ({ scrollY, handleActionButtonClick }) => {
   const { scrollYProgress } = useScroll();
@@ -50,7 +50,7 @@ const HeroSection = ({ scrollY, handleActionButtonClick }) => {
           animate={{ opacity: isInView ? getVideoOpacity() : 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <source src="/bsc.mp4" type="video/mp4" />
+          <source src="/newbsc.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>
 
